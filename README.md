@@ -14,11 +14,13 @@ Kişisel Claude Code skill koleksiyonu. Skill'ler `.claude/skills/` altında dur
 | banner-design | aynı repo | MIT |
 | ui-styling | aynı repo | Apache 2.0 (`.claude/skills/ui-styling/LICENSE.txt`) |
 | karpathy-guidelines | [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) @ `64723a4` | MIT (SKILL.md ve kaynak README'de belirtilmiş; kaynakta ayrı lisans dosyası yok) |
+| systematic-debugging, verification-before-completion, test-driven-development, receiving-code-review | [obra/superpowers](https://github.com/obra/superpowers) @ `22f0b46` (v7.0.2) — 15 skill'den seçilen 4'ü | MIT (`LICENSE-superpowers`) |
 
 ## Kaynaktan yapılan değişiklikler
 
 - `ui-ux-pro-max/SKILL.md`: `${CLAUDE_PLUGIN_ROOT}/.claude/skills/ui-ux-pro-max` yolları `${CLAUDE_SKILL_DIR}` ile değiştirildi (plugin olmadan da çalışsın diye).
 - `tests/` klasörleri çıkarıldı.
+- superpowers: yalnızca 4 skill alındı; oturum başı hook'u ve `using-superpowers` alınmadı (her yanıttan önce skill çağırmayı zorunlu kılıyor, token maliyeti yüksek). `systematic-debugging/SKILL.md` içindeki `superpowers:` önekleri kaldırıldı.
 - `design`, `design-system`, `brand`, `ui-styling` SKILL.md: göreli `scripts/...` komut yolları `"${CLAUDE_SKILL_DIR}/scripts/..."` yapıldı (skill başka projede kullanılırken de çalışsın diye).
 
 ## Dış bağlantı kuran betikler (bilgi)

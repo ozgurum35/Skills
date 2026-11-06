@@ -2,7 +2,15 @@
   "sources": [
     {
       "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
-      "skills": ["ui-ux-pro-max", "design", "design-system", "brand", "slides", "banner-design", "ui-styling"],
+      "skills": [
+        "ui-ux-pro-max",
+        "design",
+        "design-system",
+        "brand",
+        "slides",
+        "banner-design",
+        "ui-styling"
+      ],
       "track": "version",
       "version_file": ".claude-plugin/plugin.json",
       "version": "2.15.0",
@@ -10,10 +18,25 @@
     },
     {
       "repo": "multica-ai/andrej-karpathy-skills",
-      "skills": ["karpathy-guidelines"],
+      "skills": [
+        "karpathy-guidelines"
+      ],
       "track": "commit",
       "path": "skills/karpathy-guidelines",
       "commit": "64723a49ea6117894304eb491f0d32a60570bf45"
+    },
+    {
+      "repo": "obra/superpowers",
+      "skills": [
+        "systematic-debugging",
+        "verification-before-completion",
+        "test-driven-development",
+        "receiving-code-review"
+      ],
+      "track": "version",
+      "version_file": ".claude-plugin/plugin.json",
+      "version": "7.0.2",
+      "commit": "22f0b463e7a5e579904dd6211a520321035526f7"
     }
   ]
 }
