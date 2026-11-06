@@ -26,6 +26,13 @@ Kişisel Claude Code skill koleksiyonu. Skill'ler `.claude/skills/` altında dur
 - `ui-styling/scripts/shadcn_add.py`: Projede `npx shadcn` komutunu çalıştırır.
 - `brand/scripts/sync-brand-to-tokens.cjs`: Yerel token üretim betiğini `node` ile çalıştırır.
 
+## Güncellemeler
+
+- Kurulu kaynak sürüm `UPSTREAM.json` dosyasında tutulur.
+- `.github/workflows/upstream-check.yml` her pazartesi kaynak repoyu kontrol eder; yeni sürüm varsa **issue açar**. Kod kopyalamaz, dosya değiştirmez.
+- Issue gelince Claude Code'a "skill'leri güncelle" denir: yeni sürüm indirilir, değişen betikler incelenir, `CLAUDE_SKILL_DIR` düzeltmesi yeniden uygulanır, test edilir, `UPSTREAM.json` güncellenir ve gönderilir.
+- Elle tetikleme: Actions → "Kaynak sürüm kontrolü" → Run workflow.
+
 ## Kişisel bilgisayara kurulum
 
 ```bash
