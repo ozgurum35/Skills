@@ -19,6 +19,7 @@ Kişisel Claude Code skill koleksiyonu. Skill'ler `.claude/skills/` altında dur
 
 - `ui-ux-pro-max/SKILL.md`: `${CLAUDE_PLUGIN_ROOT}/.claude/skills/ui-ux-pro-max` yolları `${CLAUDE_SKILL_DIR}` ile değiştirildi (plugin olmadan da çalışsın diye).
 - `tests/` klasörleri çıkarıldı.
+- `design`, `design-system`, `brand`, `ui-styling` SKILL.md: göreli `scripts/...` komut yolları `"${CLAUDE_SKILL_DIR}/scripts/..."` yapıldı (skill başka projede kullanılırken de çalışsın diye).
 
 ## Dış bağlantı kuran betikler (bilgi)
 
@@ -36,6 +37,11 @@ Kişisel Claude Code skill koleksiyonu. Skill'ler `.claude/skills/` altında dur
 - Yeni kaynak eklerken `UPSTREAM.json` içindeki `sources` listesine bir kayıt eklenir.
 - Issue gelince Claude Code'a "skill'leri güncelle" denir: yeni sürüm indirilir, değişen betikler incelenir, `CLAUDE_SKILL_DIR` düzeltmesi yeniden uygulanır, test edilir, `UPSTREAM.json` güncellenir ve gönderilir.
 - Elle tetikleme: Actions → "Kaynak sürüm kontrolü" → Run workflow.
+
+## Diğer
+
+- `.claude/agents/kod-tarayici.md`: Haiku ile çalışan salt okunur kod tarama alt ajanı.
+- `docs/anayasa.md`: Kişisel çalışma anayasasının güncel sürümü (claude.ai tercihlerine yapıştırılan metnin kopyası).
 
 ## Kişisel bilgisayara kurulum
 
