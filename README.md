@@ -45,6 +45,10 @@ Kişisel Claude Code skill koleksiyonu. Skill'ler `.claude/skills/` altında dur
 - `.claude/agents/kod-tarayici.md`: Haiku ile çalışan salt okunur kod tarama alt ajanı.
 - `docs/anayasa.md`: Kişisel çalışma anayasasının güncel sürümü (claude.ai tercihlerine yapıştırılan metnin kopyası).
 
+## Bulut oturumlarında otomatik kurulum
+
+Repo herkese açık. Claude Code bulut ortamı (Default) kurulum betiği, her yeni oturumda bu repoyu indirip `.claude/skills/` ve `.claude/agents/` içeriğini `~/.claude/` altına kopyalar. Böylece Skills reposu oturuma eklenmese de skill'ler her projede yüklenir. İndirme başarısız olursa oturum yine açılır (skill'ler olmadan).
+
 ## Kişisel bilgisayara kurulum
 
 ```bash
