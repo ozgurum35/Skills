@@ -15,6 +15,7 @@ Kişisel Claude Code skill koleksiyonu. Skill'ler `.claude/skills/` altında dur
 | ui-styling | aynı repo | Apache 2.0 (`.claude/skills/ui-styling/LICENSE.txt`) |
 | karpathy-guidelines | [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) @ `64723a4` | MIT (SKILL.md ve kaynak README'de belirtilmiş; kaynakta ayrı lisans dosyası yok) |
 | systematic-debugging, verification-before-completion, test-driven-development, receiving-code-review | [obra/superpowers](https://github.com/obra/superpowers) @ `22f0b46` (v7.0.2) — 15 skill'den seçilen 4'ü | MIT (`LICENSE-superpowers`) |
+| markitdown | Kendi yazdığımız skill (claude.ai hesabındaki kopyadan taşındı); [microsoft/markitdown](https://github.com/microsoft/markitdown) aracını kullanır | Skill: bu repo. Araç: MIT, repoya kopyalanmadı, kullanımda `pip` ile kurulur |
 
 ## Kaynaktan yapılan değişiklikler
 
@@ -27,6 +28,7 @@ Kişisel Claude Code skill koleksiyonu. Skill'ler `.claude/skills/` altında dur
 
 - `design/scripts/logo/generate.py`, `design/scripts/icon/generate.py`: Görsel üretimi için Gemini / AtlasCloud / MuAPI'ye istek atar. API anahtarını ortam değişkeninden veya `.env` dosyasından okur. Anahtar yoksa çalışmaz. **`.env` dosyasını asla commit etme.**
 - `design-system/scripts/fetch-background.py`: Pexels görsel bağlantıları üretir.
+- `markitdown/SKILL.md`: Araç yüklü değilse `pip install markitdown[...]` ile PyPI'den kurar (sürüm sabitlenmemiş).
 - `ui-styling/scripts/shadcn_add.py`: Projede `npx shadcn` komutunu çalıştırır.
 - `brand/scripts/sync-brand-to-tokens.cjs`: Yerel token üretim betiğini `node` ile çalıştırır.
 
