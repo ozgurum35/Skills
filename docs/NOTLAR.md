@@ -4,9 +4,9 @@
 
 - Kişisel Claude Code skill koleksiyonu; skill'ler `.claude/skills/`, alt ajanlar `.claude/agents/` altında.
 - Kurulu: ui-ux-pro-max 2.15.0 (+ design, design-system, brand, slides, banner-design, ui-styling), karpathy-guidelines, superpowers'tan 4 skill (v7.0.2). Kaynak sürümleri `UPSTREAM.json`'da.
-- markitdown skill'i eklendi (PDF/Office → Markdown, token tasarrufu). Hesaptaki `anthropic-skills:markitdown` kopyası çift görünmesin diye kullanıcı tarafından claude.ai'den silinecek.
+- markitdown skill'i eklendi (PDF/Office → Markdown, token tasarrufu).
 - ui-ux-pro-max kaynakta da 2.15.0 (2026-11-07 kontrolü); `search.py` bu oturumda çalıştırılıp doğrulandı.
-- Anayasa: `docs/anayasa.md` = sürüm 2.6, claude.ai tercihleriyle aynı.
+- Anayasa: `docs/anayasa.md` = sürüm 2.7 (12. bölüm: Claude Code alışkanlıkları). claude.ai tercihlerine kullanıcı yapıştıracak; yapıştırılana kadar tercihler 2.6.
 - Bulut ortamı kurulum betiği skill'leri her oturumda `~/.claude/` altına kopyalıyor.
 
 ## Kararlar
@@ -24,6 +24,4 @@
 
 ## Açık işler
 
-- claude.ai → Skills'ten `markitdown` hesap kopyasını sil (kullanıcı).
-- GitHub 2FA'yı 19 Aralık 2026'dan önce aç (kullanıcı).
-- ZGRIPTV: "HLS (.m3u8) tercih et" ayarı yayınları açmıyor; repo oturuma eklenince incele.
+- (yok)
